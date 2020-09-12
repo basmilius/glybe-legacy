@@ -8,5 +8,5 @@ This is the source code of glybe.nl in the early 2010s. It is considered bad cod
  be used in production websites. The source is provided with no support or guide to install it.
  
 #### Join our community!
-In the meantime, Glybe has been updated to an entierly new version. You should join our growing
+In the meantime, Glybe has been updated to an entirely new version. You should join our growing
 community! It's a Dutch community, available on glybe.nl.
