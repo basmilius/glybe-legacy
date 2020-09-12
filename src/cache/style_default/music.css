@@ -1,0 +1,110 @@
+html body.music_app
+	{
+		background: #141414;
+	}
+html body.music_app div.player_bar
+	{
+		position: relative;
+		height: 76px;
+		width: 100%;
+		background: url(images/music/music_player_bar.png) repeat-x center top;
+		z-index: 2;
+		padding: 1px 0px 0px 0px;
+		overflow: hidden;
+	}
+html body.music_app div.player_bar div.btn
+	{
+		position: relative;
+		height: 76px;
+		width: 76px;
+		float: left;
+	}
+html body.music_app div.player_bar div.btn.goback
+	{
+		background: url(images/music/music_btn_goback.png) no-repeat left top;
+	}
+html body.music_app div.player_bar div.btn.goforward
+	{
+		background: url(images/music/music_btn_goforward.png) no-repeat left top;
+	}
+html body.music_app div.player_bar div.btn.pause
+	{
+		background: url(images/music/music_btn_pause.png) no-repeat left top;
+	}
+html body.music_app div.player_bar div.btn.play
+	{
+		background: url(images/music/music_btn_play.png) no-repeat left top;
+	}
+html body.music_app div.search_bar
+	{
+		position: relative;
+		height: 50px;
+		width: 100%;
+		background: url(images/music/music_search_bar.png) repeat-x center top;
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+		z-index: 1;
+	}
+html body.music_app div.bottom_bar
+	{
+		position: absolute;
+		height: 49px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		background: url(images/music/music_bottom_bar.png) repeat-x center top;
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
+		z-index: 1;
+	}
+html body.music_app div.app_content
+	{
+		position: absolute;
+		top: 127px;
+		left: 0px;
+		right: 0px;
+		bottom: 49px;
+	}
+html body.music_app div.app_content div.artists
+	{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		bottom: 0px;
+		width: 282px;
+		padding: 0px 2px 0px 0px;
+		background: url(images/music/music_artists_panel_border.png) repeat-y center right #232323;
+	}
+html body.music_app div.app_content div.artists div.artist
+	{
+		position: relative;
+		padding: 10px 14px;
+		color: #FFFFFF;
+		font-size: 13px;
+		text-shadow: 0px 1px #000000;
+	}
+html body.music_app div.app_content div.artists div.artist.b
+	{
+		background: #282828;
+	}
+html body.music_app div.app_content div.songs
+	{
+		position: absolute;
+		top: 0px;
+		left: 286px;
+		right: 0px;
+		bottom: 0px;
+		background: #282828;
+	}
+html body.music_app div.app_content div.songs div.nav_bar
+	{
+		position: relative;
+		height: 50px;
+		width: 100%;
+		background: url(images/music/music_songs_nav_bar.png) repeat-x center top;
+	}
+html body.music_app div.app_content div.songs div.cover_flow
+	{
+		position: relative;
+		height: 206px;
+		width: 100%;
+		background: url(images/music/music_songs_coverflow.png) repeat-x center top;
+	}

@@ -1,0 +1,39 @@
+html body div.smart_textarea
+	{
+		position: relative;
+		border: 1px solid #C6C6C6;
+		padding: 0px;
+	}
+html body div.smart_textarea iframe
+	{
+		position: relative;
+		width: 100%;
+		margin: 0px;
+		border: none;
+	}
+html body div.smart_textarea div.richText
+	{
+		position: relative;
+		padding: 2px;
+		background: #C6C6C6;
+	}
+html body div.smart_textarea div.richText div.ubbItem
+	{
+		position: relative;
+		border: 1px solid #C6C6C6;
+		background: #C6C6C6;
+		padding: 5px 10px;
+		margin: 1px;
+		float: left;
+		cursor: pointer;
+	}
+html body div.smart_textarea div.richText div.ubbItem.active
+	{
+		border: 1px solid #0068CF;
+		background: #80B4E7;
+	}
+html body div.smart_textarea div.richText div.ubbItem:hover
+	{
+		border: 1px solid #80B4E7;
+		background: #BFD9F2;
+	}

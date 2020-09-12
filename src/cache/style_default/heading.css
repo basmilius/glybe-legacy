@@ -1,0 +1,41 @@
+html body > div.heading
+	{
+		position: relative;
+		width: 100%;
+		background: url(images/glb_heading.png) no-repeat center top #232323;
+		z-index: 100;
+	}
+html body > div.heading div.dots
+	{
+		position: absolute;
+		width: 100%;
+		background: url(images/ema_tv.png) repeat center top;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		bottom: 30px;
+	}
+html body div.heading div.heading_content
+	{
+		position: relative;
+		height: 120px;
+		width: 900px;
+		margin: 0px auto;
+		overflow: hidden;
+	}
+html body div.heading div.heading_content div.logo
+	{
+		position: relative;
+		top: 35px;
+		height: 50px;
+		width: 900px;
+		background: url(images/logo_sprite.png) no-repeat center top;
+	}
+html body div.heading div.youtube_player
+	{
+		position: absolute;
+		width: 900px;
+		height: 706px;
+		background: #000000;
+		top: -283px;
+	}

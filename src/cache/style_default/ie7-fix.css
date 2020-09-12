@@ -1,0 +1,11 @@
+html body > div.heading div.menu_black div.menu_content div.menu_item div.submenu
+	{
+		left: 0px;
+		top: 100%;
+		width: 160px;
+	}
+html body > div.heading div.menu_black div.menu_content div.menu_item div.submenu div.subitem
+	{
+		width: 160px;
+		cursor: pointer;
+	}

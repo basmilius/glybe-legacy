@@ -1,0 +1,70 @@
+html body div.user_status
+	{
+		position: relative;
+		margin: 2px;
+	}
+html body div.user_status div.profile_picture
+	{
+		position: absolute;
+		top: 4px;
+		left: 4px;
+		bottom: 4px;
+		right: 4px;
+	}
+html body div.user_status div.status_image
+	{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		bottom: 0px;
+		right: 0px;
+	}
+html body div.user_status.small
+	{
+		width: 27px;
+		height: 27px;
+	}
+html body div.user_status.small div.status_image.online
+	{
+		background: url(images/user_status/status_small_online.png) no-repeat center center;
+	}
+html body div.user_status.small div.status_image.away
+	{
+		background: url(images/user_status/status_small_away.png) no-repeat center center;
+	}
+html body div.user_status.small div.status_image.busy
+	{
+		background: url(images/user_status/status_small_busy.png) no-repeat center center;
+	}
+html body div.user_status.small div.status_image.offline
+	{
+		background: url(images/user_status/status_small_offline.png) no-repeat center center;
+	}
+html body div.user_status.big
+	{
+		width: 120px;
+		height: 120px;
+	}
+html body div.user_status.big div.profile_picture
+	{
+		top: 11px;
+		left: 11px;
+		bottom: 11px;
+		right: 11px;
+	}
+html body div.user_status.big div.status_image.online
+	{
+		background: url(images/user_status/status_big_online.png) no-repeat center center;
+	}
+html body div.user_status.big div.status_image.away
+	{
+		background: url(images/user_status/status_big_away.png) no-repeat center center;
+	}
+html body div.user_status.big div.status_image.busy
+	{
+		background: url(images/user_status/status_big_busy.png) no-repeat center center;
+	}
+html body div.user_status.big div.status_image.offline
+	{
+		background: url(images/user_status/status_big_offline.png) no-repeat center center;
+	}

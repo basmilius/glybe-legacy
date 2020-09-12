@@ -1,0 +1,436 @@
+html body div.content
+	{
+		position: relative;
+		width: 900px;
+		margin: 0px auto 5px auto;
+		border: 1px solid #C6C6C6;
+		border-top: none;
+		border-radius: 0px 0px 6px 6px;
+		padding: 5px;
+		background: url(images/white_trans.png);
+	}
+html body div.content div.container
+	{
+		position: relative;
+		float: left;
+		padding: 5px;
+	}
+html body div.content div.container.small
+	{
+		width: 215px;
+	}
+html body div.content div.container.large
+	{
+		width: 440px;
+	}
+html body div.content div.container.big
+	{
+		width: 665px;
+	}
+html body div.content div.container.epic_large
+	{
+		width: 890px;
+	}
+
+html body div.content div.container div.c_box
+	{
+		position: relative;
+		background: #FFFFFF;
+		margin-top: 10px;
+		border: 1px solid #C6C6C6;
+		border-radius: 4px;
+		box-shadow: 0px 2px rgba(0, 0, 0, 0.3);
+	}
+html body div.content div.container div.c_box div.heading
+	{
+		position: relative;
+		background: url(images/glb_sprite_a.png?2) repeat-x top left;
+		background-position: 0px -221px;
+		color: #FFFFFF;
+		padding: 7px 8px;
+		border-radius: 4px 4px 0px 0px;
+		font-weight: bold;
+		font-size: 11px;
+		text-shadow: 0px -1px #000000;
+		margin: -1px !important;
+	}
+html body div.content div.container div.c_box div.heading a
+	{
+		color: #FFFFFF;
+	}
+html body div.content div.container div.c_box div.inner
+	{
+		position: relative;
+		padding: 8px;
+	}
+html body div.content div.container div.c_box:first-child
+	{
+		margin-top: 0px;
+	}
+html body div.nav_link
+	{
+		position: relative;
+		border-radius: 4px;
+		padding: 5px 7px;
+	}
+html body div.nav_link_sdf:hover
+	{
+		background: #ABCDEF;
+		color: #333333;
+	}
+html body div.nav_link:hover
+	{
+		background: url(images/topic_post_bg.png) repeat-x center center;
+		color: #FFFFFF;
+	}
+html body div.nav_link.static
+	{
+		background: #FFFFFF;
+		color: #333333;
+	}
+
+
+html body div.content div.container div.c_box div.inner.timeline
+	{
+		padding: 8px 0px;
+	}
+html body div.content div.container div.c_box div.inner.timeline div.tl_item
+	{
+		position: relative;
+		background: #FFFFFF;
+		border-bottom: 1px dotted #C6C6C6;
+		padding: 6px 18px;
+	}
+html body div.content div.container div.c_box div.inner.timeline div.tl_item:hover
+	{
+		background: #FFFCD8;
+	}
+html body div.content div.container div.c_box div.inner.timeline div.tl_item span.time
+	{
+		float: right;
+		font-style: italic;
+		color: Grey;
+	}
+html body div.content div.container div.c_box div.inner.timeline div.tl_item div.postText
+	{
+		position: relative;
+		max-height: 60px;
+		overflow: hidden;
+	}
+
+
+
+html body div.content div.container div.c_box div.inner table.top_list
+	{
+		position: relative;
+	}
+html body div.content div.container div.c_box div.inner table.top_list tr
+	{
+		position: relative;
+		background: #FFFFFF;
+	}
+html body div.content div.container div.c_box div.inner table.top_list tr:hover
+	{
+		background: #FFFCD8;
+	}
+html body div.content div.container div.c_box div.inner table.top_list tr td
+	{
+		position: relative;
+		padding: 6px 7px;
+	}
+
+
+
+html body div.content div.container div.c_box div.inner div.music_item
+	{
+		position: relative;
+		padding: 2px 6px;
+	}
+html body div.content div.container div.c_box div.inner div.music_item:hover
+	{
+		background: #FFFCD8;
+	}
+html body div.content div.container div.c_box div.inner div.music_item div.music_thumb
+	{
+		position: relative;
+		float: left;
+		height: 56px;
+		width: 110px;
+		background: #789ABC;
+	}
+html body div.content div.container div.c_box div.inner div.music_item div.music_title
+	{
+		position: relative;
+		float: left;
+		height: 40px;
+		width: 264px;
+		padding: 8px;
+		font-weight: bold;
+	}
+
+
+
+html body div.content div.forum_profilepicture
+	{
+		position: relative;
+		max-height: 164px;
+		max-width: 164px;
+		min-height: 164px;
+		min-width: 164px;
+		overflow: hidden;
+		background: url(images/forum_profilepicture.png) no-repeat center center;
+	}
+html body div.content div.forum_profilepicture img
+	{
+		position: absolute;
+		top: 7px;
+		left: 7px;
+		bottom: 7px;
+		right: 7px;
+		height: 149px;
+		width: 149px;
+		-webkit-user-drag: none;
+	}
+
+
+
+
+html body div.poll_antwoord
+	{
+		position: relative;
+		padding: 2px;
+	}
+html body div.poll_antwoord.clickable:hover
+	{
+		cursor: pointer;
+		background: #DDEEFF;
+		border-radius: 5px;
+	}
+html body div.poll_antwoord div.answer
+	{
+		position: relative;
+		padding: 2px 5px;
+		font-weight: bold;
+		color: #333333;
+	}
+html body div.poll_antwoord div.result
+	{
+		position: relative;
+		margin: 2px 5px;
+		border: 1px solid #006D9C;
+		height: 20px;
+		background: url(images/trans_black_dotted_bg.png);
+	}
+html body div.poll_antwoord div.result div.balk
+	{
+		position: absolute;
+		background: url(images/topic_post_bg.png) repeat-x center left;
+		height: 20px;
+	}
+html body div.poll_antwoord div.result div.caption
+	{
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		padding: 3px;
+		color: #FFFFFF;
+		font-weight: bold;
+	}
+
+
+
+
+html body div.content div.container div.c_box div.inner div.sp_pf_user
+	{
+		position: relative;
+		float: left;
+		margin: 3px 16px;
+		height: 142px;
+		width: 142px;
+	}
+html body div.content div.container div.c_box div.inner div.sp_pf_user img
+	{
+		position: relative;
+		margin: 1px;
+	}
+html body div.content div.container div.c_box div.inner div.sp_pf_user div.transpixel
+	{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+		background: url(/cache/images/transpixel/0/0/0/0);
+	}
+html body div.content div.container div.c_box div.inner div.sp_pf_user div.name
+	{
+		position: absolute;
+		left: 1px;
+		right: 1px;
+		bottom: 1px;
+		background: url(/cache/images/transpixel/0/0/0/0.6);
+		padding: 6px 5px;
+		color: #FFFFFF;
+		text-shadow: 0px 1px #000000;
+		text-align: center;
+		text-decotation: none;
+		font-weight: bold;
+		box-shadow: 0px -1px rgba(0, 0, 0, 0.1);
+	}
+html body div.content div.container div.c_box div.inner div.sp_pf_user div.over
+	{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		bottom: 0px;
+		background: url(images/profile_pf_shadow.png) no-repeat center center;
+	}
+html body div.content div.container div.c_box div.inner div.sp_pf_user:hover div.transpixel
+	{
+		background: url(/cache/images/transpixel/255/255/255/0.5);
+	}
+
+
+
+
+html body div.content div.container div.c_box div.inner div.gb_balloon
+	{
+		position: relative;
+		width: 408px;
+	}
+html body div.content div.container div.c_box div.inner div.gb_balloon div.top
+	{
+		position: relative;
+		width: 408px;
+		height: 4px;
+		background: url(images/guestbook/gb_balloon_sprite.png) no-repeat top left;
+		background-position: 0px 0px;
+	}
+html body div.content div.container div.c_box div.inner div.gb_balloon div.mid
+	{
+		position: relative;
+		width: 408px;
+		min-height: 45px;
+		background: url(images/guestbook/gb_balloon_sprite.png) repeat-y top left;
+		background-position: -408px 0px;
+	}
+html body div.content div.container div.c_box div.inner div.gb_balloon div.mid div.inner_mid
+	{
+		position: relative;
+		padding: 0px 6px 0px 14px;
+	}
+html body div.content div.container div.c_box div.inner div.gb_balloon div.bot
+	{
+		position: relative;
+		width: 408px;
+		height: 4px;
+		background: url(images/guestbook/gb_balloon_sprite.png) no-repeat top left;
+		background-position: -816px 0px;
+	}
+html body div.content div.container div.c_box div.inner div.gb_balloon div.arrow
+	{
+		position: absolute;
+		top: 18px;
+		left: 0px;
+		width: 7px;
+		height: 13px;
+		background: url(images/guestbook/gb_balloon_arrow.png) no-repeat top left;
+	}
+
+
+
+
+html body div.content div.container div.c_box div.inner div.topic_msg
+	{
+		position: relative;
+		margin: 3px 0px;
+	}
+html body div.content div.container div.c_box div.inner div.topic_msg div.user_tile
+	{
+		position: relative;
+		float: left;
+		width: 151px;
+		border: 1px solid #A5A5A5;
+	}
+html body div.content div.container div.c_box div.inner div.topic_msg div.user_tile div.profile_picture
+	{
+		position: relative;
+		width: 149px;
+		height: 149px;
+		border: 1px solid #C6C6C6;
+	}
+html body div.content div.container div.c_box div.inner div.topic_msg div.user_tile div.profile_picture img
+	{
+		position: absolute;
+		width: 149px;
+		height: 149px;
+		top: 0px;
+		left: 0px;
+	}
+html body div.content div.container div.c_box div.inner div.topic_msg div.user_tile div.profile_picture div.username
+	{
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		padding: 6px 0px;
+		text-align: center;
+		color: #FFFFFF;
+		font-weight: bold;
+		background: url(/cache/images/transpixel/0/0/0/0.7);
+		color: #FFFFFF;
+	}
+html body div.content div.container div.c_box div.inner div.topic_msg div.user_tile div.profile_picture div.username a
+	{
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+html body div.content div.container div.c_box div.inner div.topic_msg div.user_tile div.profile_picture div.username a:hover
+	{
+		text-decoration: underline;
+	}
+html body div.content div.container div.c_box div.inner div.topic_msg div.user_tile div.user_info
+	{
+		position: relative;
+		border-top: 1px solid #A5A5A5;
+		padding: 4px;
+		width: 143px;
+		background: #FFFFFF;
+		font-size: 10px;
+	}
+html body div.content div.container div.c_box div.inner div.topic_msg div.user_tile div.user_info div.arrow
+	{
+		position: absolute;
+		top: -10px;
+		width: 21px;
+		left: 65px;
+		height: 11px;
+		background: url(images/forum/forum_topic_arrow.png) no-repeat center top;
+	}
+html body div.content div.container div.c_box div.inner div.topic_msg div.msg_balloon
+	{
+		position: relative;
+		width: 694px;
+		margin-left: 20px;
+		float: left;
+		border: 1px solid #C6C6C6;
+	}
+html body div.content div.container div.c_box div.inner div.topic_msg div.msg_balloon div.top
+	{
+		position: relative;
+		background: #D3D3D3;
+		padding: 7px;
+		font-weight: bold;
+	}
+html body div.content div.container div.c_box div.inner div.topic_msg div.msg_balloon div.top div.post_options
+	{
+		position: relative;
+		float: right;
+		margin: -1px;
+	}
+html body div.content div.container div.c_box div.inner div.topic_msg div.msg_balloon div.mid
+	{
+		position: relative;
+		padding: 9px;
+	}

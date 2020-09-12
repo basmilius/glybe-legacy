@@ -1,0 +1,133 @@
+body .ubb
+	{
+		position: relative;
+	}
+
+/*
+ * Quote
+ */
+body .ubb.ubb_quote
+	{
+		border: 2px solid #C6C6C6;
+	}
+body .ubb.ubb_quote legend
+	{
+		padding: 0px 5px;
+	}
+body .ubb.ubb_quote div.in
+	{
+		padding: 2px;
+	}
+body .ubb.ubb_morequotes
+	{
+		border: 2px solid #C6C6C6;
+		padding: 6px 10px;
+		font-weight: bold !important;
+		color: #333333 !important;
+		cursor: pointer;
+	}
+
+/*
+ * Spoiler
+ */
+body .ubb.ubb_spoiler
+	{
+		border: 2px solid #C6C6C6;
+	}
+body .ubb.ubb_spoiler legend
+	{
+		padding: 0px 5px;
+	}
+body .ubb.ubb_spoiler div.in
+	{
+		padding: 2px;
+	}
+
+/*
+ * Moderation Message
+ */
+body .ubb.ubb_modmessage
+	{
+		position: relative;
+		border: 1px solid #910000;
+		background: #F8C5C2;
+		padding: 5px;
+		text-align: center;
+	}
+body .ubb.ubb_modmessage span.title
+	{
+		font-weight: bold;
+	}
+
+/*
+ * Music Thumb Image
+ */
+body .ubb.ubb_music
+	{
+		position: relative;
+		margin: 4px;
+		padding: 5px;
+		background: url(images/ubb_music_bg.png) repeat-x top center;
+		border-radius: 5px;
+		width: 400px;
+		height: 70px;
+	}
+body .ubb.ubb_music div.video_thumb
+	{
+		position: relative;
+		float: left;
+		height: 68px;
+		width: 130px;
+		overflow: hidden;
+		border: 1px solid #212121;
+	}
+body .ubb.ubb_music div.video_thumb img
+	{
+		position: absolute;
+		width: 130px;
+		top: -12px;
+	}
+body .ubb.ubb_music div.video_info
+	{
+		position: relative;
+		float: left;
+		width: 255px;
+		padding: 7px 5px;
+		color: #FFFFFF;
+	}
+body .ubb.ubb_music div.video_info span.video_title
+	{
+		font-weight: bold;
+	}
+body .ubb.ubb_music div.video_info a.link
+	{
+		color: #FFFFFF;
+	}
+/* Code tags */
+body .codett
+{
+	font-family: Courier;
+}
+
+body table.bbcode
+{
+	width: 95%;
+	border: 1px solid #CCC;
+	background-color: #FFF;
+	font-size: 12px;
+}
+
+body TD.bb_num
+{
+	background-color: #CCC;
+	color: #808080;
+	font-family: Courier;
+	font-size: 12px;
+	text-align: right;
+}
+
+body TD.bb_quote
+{
+	font: 12px Arial;
+	color: #333;
+}

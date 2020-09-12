@@ -1,0 +1,70 @@
+html body div.selectbox
+	{
+		position: relative;
+		padding: 2px;
+		float: left;
+	}
+html body div.selectbox div.caption
+	{
+		position: relative;
+		border: 1px solid #C6C6C6;
+		padding: 6px 28px 6px 10px;
+		color: #878787;
+		background: #FFFFFF;
+		cursor: default;
+	}
+html body div.selectbox div.caption div.arrow
+	{
+		position: absolute;
+		float: right;
+		top: 10px;
+		right: 9px;
+		background: url(images/dropdown_arrow.png) no-repeat center center;
+		height: 3px;
+		width: 6px;
+	}
+html body div.selectbox:hover div.caption
+	{
+		border: 1px solid #444444;
+		color: #333333;
+	}
+html body div.selectbox:hover div.caption div.arrow
+	{
+		background: url(images/dropdown_arrow_hover.png) no-repeat center center;
+	}
+html body div.selectbox div.dropdown
+	{
+		position: absolute;
+		background: #FFFFFF;
+		border: 1px solid #C6C6C6;
+		margin: 1px 0px 0px 0px;
+		min-width: 100%;
+		box-shadow: 2px 2px rgba(198, 198, 198, 0.4);
+		display: none;
+		padding: 1px;
+	}
+html body div.selectbox:hover div.dropdown
+	{
+		display: block;
+	}
+html body div.selectbox div.dropdown div.item
+	{
+		position: relative;
+		margin: 1px;
+		padding: 4px 8px;
+		border: 1px solid #FFFFFF;
+		background: #FFFFFF;
+		cursor: pointer;
+	}
+html body div.selectbox div.dropdown div.item:hover
+	{
+		border: 1px solid #80B4E7;
+		background: #BFD9F2;
+	}
+html body div.selectbox div.dropdown div.item.static
+	{
+		border: 1px solid #FFFFFF;
+		background: #FFFFFF;
+		cursor: default;
+		font-weight: bold;
+	}

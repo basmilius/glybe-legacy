@@ -1,0 +1,103 @@
+html body > div.heading div.menu_black
+	{
+		position: relative;
+		height: 30px;
+		width: 100%;
+		background: url(images/glb_sprite_a.png) repeat-x top left;
+		background-position: 0px -82px;
+	}
+html body > div.heading div.menu_black div.menu_content
+	{
+		position: relative;
+		width: 860px;
+		margin: 0px auto;
+	}
+html body > div.heading div.menu_black div.menu_content div.menu_item
+	{
+		position: relative;
+		float: left;
+	}
+html body > div.heading div.menu_black div.menu_content div.sepator
+	{
+		position: relative;
+		float: left;
+		width: 2px;
+		height: 30px;
+		background: url(images/glb_sprite_a.png) no-repeat top left;
+		background-position: 0px -147px;
+	}
+html body > div.heading div.menu_black div.menu_content div.menu_item a
+	{
+		position: relative;
+		text-decoration: none;
+	}
+html body > div.heading div.menu_black div.menu_content div.menu_item a div.caption
+	{
+		position: relative;
+		color: #FFFFFF;
+		padding: 8px 20px 9px 20px;
+		text-shadow: 0px -1px rgba(0, 0, 0, 0.7);
+	}
+html body > div.heading div.menu_black div.menu_content div.menu_item:hover a div.caption
+	{
+		background: url(images/glb_sprite_a.png) repeat-x top left;
+		background-position: 0px -113px;
+	}
+html body > div.heading div.menu_black div.menu_content div.menu_item div.submenu
+	{
+		position: absolute;
+		margin-top: 0px;
+		margin-left: -1px;
+		box-shadow: 0px 0px 9px #B4B7B9;
+		border-radius: 4px;
+		display: none;
+	}
+html body > div.heading div.menu_black div.menu_content div.menu_item:hover div.submenu
+	{
+		display: block;
+	}
+html body > div.heading div.menu_black div.menu_content div.menu_item div.submenu a
+	{
+		text-decoration: none;
+	}
+html body > div.heading div.menu_black div.menu_content div.menu_item div.submenu a div.subitem
+	{
+		position: relative;
+		background: #FFFFFF;
+		border: 1px solid #C6CBD0;
+		border-bottom: none;
+		padding: 8px 13px;
+		color: #686D71;
+		min-width: 109px;
+	}
+html body > div.heading div.menu_black div.menu_content div.menu_item div.submenu a.last div.subitem
+	{
+		border-radius: 0px 0px 4px 4px;
+		border-bottom: 1px solid #C6CBD0;
+	}
+html body > div.heading div.menu_black div.menu_content div.menu_item div.submenu a div.subitem div.menu_arrow
+	{
+		position: absolute;
+		top: -8px;
+		left: 30px;
+		height: 8px;
+		width: 15px;
+		background: url(images/top_bar/menu_arrow.png) no-repeat center center;
+		z-index: 4;
+	}
+html body > div.heading div.menu_black div.menu_content div.menu_item div.submenu a div.subitem:hover div.menu_arrow
+	{
+		background: url(images/top_bar/menu_arrow_hover.png) no-repeat center center;
+	}
+html body > div.heading div.menu_black div.menu_content div.menu_item div.submenu a div.subitem:hover
+	{
+		border: 1px solid #9FA6AC;
+		background: #C6CBD0;
+		color: #FFFFFF;
+		z-index: 2;
+		margin-bottom: -1px;
+	}
+html body > div.heading div.menu_black div.menu_content div.menu_item div.submenu a.last div.subitem:hover
+	{
+		margin-bottom: 0px;
+	}

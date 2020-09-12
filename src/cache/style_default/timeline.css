@@ -1,0 +1,172 @@
+html body div.timeline
+	{
+		position: relative;
+		margin: 1px;
+	}
+html body div.timeline div.status_item
+	{
+		position: relative;
+		margin: 3px;
+	}
+html body div.timeline div.status_item div.profile_picture
+	{
+		position: relative;
+		margin: 6px;
+		border: 1px solid #C6C6C6;
+		overflow: hidden;
+		height: 48px;
+		width: 48px;
+		float: left;
+	}
+html body div.timeline div.status_item div.right_side
+	{
+		position: relative;
+		margin: 6px 7px;
+		width: 438px;
+		float: left;
+	}
+html body div.timeline div.status_item div.right_side div.status_bubble
+	{
+		position: relative;
+	}
+html body div.timeline div.status_item div.right_side div.status_bubble div.top
+	{
+		position: relative;
+		height: 2px;
+		width: 438px;
+		background: url(images/timeline/tl_item_top.png) no-repeat center center;
+	}
+html body div.timeline div.status_item div.right_side div.status_bubble div.mid
+	{
+		position: relative;
+		min-height: 44px;
+		width: 438px;
+		background: url(images/timeline/tl_item_mid.png) repeat-y center center;
+	}
+html body div.timeline div.status_item div.right_side div.status_bubble div.bot
+	{
+		position: relative;
+		height: 23px;
+		width: 438px;
+		background: url(images/timeline/tl_item_bot.png) no-repeat center center;
+	}
+html body div.timeline div.status_item div.right_side div.status_bubble div.arrow
+	{
+		position: absolute;
+		height: 13px;
+		width: 13px;
+		top: 13px;
+		left: 0px;
+		background: url(images/timeline/tl_item_arrow.png) no-repeat center center;
+	}
+html body div.timeline div.status_item div.right_side div.status_bubble div.mid div.status_message
+	{
+		position: relative;
+		padding: 5px 10px 5px 24px;
+		word-wrap: break-word;
+	}
+html body div.timeline div.status_item div.right_side div.status_bubble div.bot div.link_content
+	{
+		position: relative;
+		padding: 4px 7px 4px 21px;
+	}
+html body div.timeline div.status_item div.right_side div.status_bubble div.bot div.link_content div.icon
+	{
+		margin: -2px 7px -2px 0px;
+	}
+html body div.timeline div.status_item div.right_side div.status_bubble div.bot div.link_content a.link_item
+	{
+		position: relative;
+		float: left;
+		margin: 0px 3px;
+	}
+html body div.timeline div.status_item div.right_side div.comments_bubble
+	{
+		position: relative;
+		margin: 2px 0px 0px 0px;
+	}
+html body div.timeline div.status_item div.right_side div.comments_bubble div.top
+	{
+		position: relative;
+		height: 2px;
+		width: 438px;
+		background: url(images/timeline/tl_item_rep_top.png) no-repeat center center;
+	}
+html body div.timeline div.status_item div.right_side div.comments_bubble div.mid
+	{
+		position: relative;
+		min-height: 10px;
+		width: 438px;
+		background: url(images/timeline/tl_item_rep_mid.png) repeat-y center center;
+	}
+html body div.timeline div.status_item div.right_side div.comments_bubble div.bot
+	{
+		position: relative;
+		height: 2px;
+		width: 438px;
+		background: url(images/timeline/tl_item_rep_bot.png) no-repeat center center;
+	}
+html body div.timeline div.status_item div.right_side div.comments_bubble div.arrow
+	{
+		position: absolute;
+		height: 8px;
+		width: 15px;
+		top: -7px;
+		left: 65px;
+		background: url(images/timeline/tl_item_rep_arrow.png) no-repeat center center;
+	}
+html body div.timeline div.status_item div.right_side div.comments_bubble div.mid div.comments
+	{
+		position: relative;
+		padding: 2px 3px 2px 17px;
+	}
+html body div.timeline div.status_item div.right_side div.comments_bubble div.mid div.comments div.comment
+	{
+		position: relative;
+		padding: 3px;
+	}
+html body div.timeline div.status_item div.right_side div.comments_bubble div.mid div.comments div.comment div.profile_picture
+	{
+		position: relative;
+		margin: 6px;
+		border: 1px solid #80B4E7;
+		overflow: hidden;
+		height: 36px;
+		width: 36px;
+		float: left;
+	}
+html body div.timeline div.status_item div.right_side div.comments_bubble div.mid div.comments div.comment div.comment_content
+	{
+		position: relative;
+		margin: 10px 4px;
+		width: 340px;
+		float: left;
+	}
+html body div.timeline div.status_item div.right_side div.comments_bubble div.mid div.comments div.line_hor
+	{
+		position: relative;
+		margin: 1px 15px;
+		border-top: 1px solid #80B4E7;
+	}
+html body div.timeline div.status_item div.right_side div.comments_bubble div.mid div.comments div.comment.reply div.profile_picture
+	{
+		position: relative;
+		margin: 13px 8px 13px 12px;
+		height: 24px;
+		width: 24px;
+	}
+html body div.timeline div.status_item div.right_side div.comments_bubble div.mid div.comments div.comment.reply div.comment_content
+	{
+		position: relative;
+		margin: 7px 4px;
+		width: 340px;
+	}
+html body div.timeline div.status_item div.right_side div.comments_bubble div.mid div.comments div.comment.reply div.comment_content textarea.reply
+	{
+		position: relative;
+		background: #FFFFFF;
+		border: 1px solid #80B4E7;
+		padding: 5px;
+		width: 330px;
+		height: 24px;
+	}

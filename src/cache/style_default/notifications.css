@@ -1,0 +1,46 @@
+html body div.notif_bar
+	{
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		height: 30px;
+		width: 100%;
+		background: url(images/top_bar/menu_stroke.png) repeat-x center top;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+		z-index: 900000;
+	}
+html body div.notif_bar div.notif_holder
+	{
+		position: fixed;
+		bottom: 0px;
+		right: 10px;
+	}
+html body div.notif_bar div.notif_holder div.notif_msg
+	{
+		position: relative;
+		min-width: 340px;
+		min-height: 80px;
+		max-width: 340px;
+		background: #FFFFFF;
+		border: 1px solid #C6C6C6;
+		border-radius: 5px;
+		margin-bottom: 10px;
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+	}
+html body div.notif_bar div.notif_holder div.notif_msg div.heading
+	{
+		position: relative;
+		background: url(images/top_bar/menu_stroke.png) repeat-x center bottom;
+		color: #686D71;
+		padding: 7px 8px;
+		border-radius: 4px 4px 0px 0px;
+		font-weight: bold;
+		text-shadow: 0px 1px #FFFFFF;
+		margin: 0px !important;
+	}
+html body div.notif_bar div.notif_holder div.notif_msg div.inner
+	{
+		position: relative;
+		padding: 8px;
+	}

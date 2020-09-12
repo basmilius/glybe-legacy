@@ -1,0 +1,56 @@
+html body div.footer
+	{
+		position: relative;
+		width: 910px;
+		margin: 0px auto 40px auto;
+		border-radius: 6px;
+		background: #FFFFFF;
+		border: 1px solid #C6C6C6;
+	}
+html body div.footer div.heading
+	{
+		position: relative;
+		background: url(images/glb_sprite_a.png) repeat-x top left;
+		background-position: 0px 0px;
+		color: #686D71;
+		font-weight: bold;
+		text-shadow: 0px 1px #FFFFFF;
+		border-radius: 6px 6px 0px 0px;
+		border-bottom: 1px solid #C6C6C6;
+	}
+html body div.footer div.heading a
+	{
+		text-decoration: none;
+	}
+html body div.footer div.heading a div.item
+	{
+		position: relative;
+		float: left;
+		min-height: 41px;
+		color: #686D71;
+	}
+html body div.footer div.heading a div.item.home
+	{
+		width: 50px;
+		background: url(images/footer/home.png) no-repeat center center;
+	}
+html body div.footer div.heading a div.item.text
+	{
+		position: relative;
+		background: url(images/glb_sprite_a.png) no-repeat top left;
+		background-position: 0px -41px;
+	}
+html body div.footer div.heading a div.item.text div.caption
+	{
+		position: relative;
+		margin-left: 18px;
+		padding: 13px 14px 13px 8px;
+	}
+html body div.footer div.heading a div.item.text:hover
+	{
+		text-decoration: underline;
+	}
+html body div.footer div.inner
+	{
+		padding: 7px;
+	}

@@ -1,0 +1,170 @@
+html body
+	{
+		margin: 0px;
+		padding: 0px;
+		font-size: 11px;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		color: #333333;
+		background: url(images/glb_bg.png) repeat top center #DDEEFF;
+	}
+html body div.clear
+	{
+		clear: both;
+	}
+html body a
+	{
+		color: #000000;
+		text-decoration: underline;
+	}
+html body a:hover
+	{
+		color: #3388D5;
+		text-decoration: none;
+	}
+html body a img
+	{
+		border: none;
+	}
+
+html body input[type=text], html body input[type=password], html body textarea
+	{
+		position: relative;
+		outline: none;
+		border: 1px solid #C6C6C6;
+		background: #FFFFFF;
+		padding: 5px 10px;
+		font-size: 12px;
+		font-family: Verdana;
+	}
+html body input[type=submit], html body input[type=button]
+	{
+		position: relative;
+		outline: none;
+		border: 1px solid #668233;
+		background: #88AE44;
+		color: #FFFFFF;
+		padding: 5px 10px;
+		font-size: 12px;
+	}
+html body input[type=submit]:hover, html body input[type=button]:hover
+	{
+		background: #668233;
+	}
+
+html body div.error_notif
+	{
+		position: relative;
+		margin: 3px 0px;
+		padding: 10px;
+		font-size: 12px;
+		color: #333333;
+		text-align: center;
+	}
+html body div.error_notif.error
+	{
+		border: 1px solid #EB5439;
+		background: #FCCAC1;
+	}
+html body div.error_notif.warning
+	{
+		border: 1px solid #FAB418;
+		background: #FFE9AD;
+	}
+html body div.error_notif.success
+	{
+		border: 1px solid #98C700;
+		background: #EFFEB9;
+	}
+html body div.error_notif.information
+	{
+		border: 1px solid #4D8FCB;
+		background: #D1E4F3;
+	}
+
+
+
+
+html body div.top_notif
+	{
+		position: fixed;
+		padding: 20px;
+		font-size: 12px;
+		color: #333333;
+		text-align: center;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		z-index: 9999999;
+	}
+html body div.top_notif.error
+	{
+		border-bottom: 2px solid #EB5439;
+		background: #FCCAC1;
+	}
+html body div.top_notif.warning
+	{
+		border-bottom: 2px solid #FAB418;
+		background: #FFE9AD;
+	}
+html body div.top_notif.success
+	{
+		border-bottom: 2px solid #98C700;
+		background: #EFFEB9;
+	}
+html body div.top_notif.information
+	{
+		border-bottom: 2px solid #4D8FCB;
+		background: #D1E4F3;
+	}
+
+
+
+
+
+html body div.psystem
+	{
+		position: relative;
+		margin: 3px;
+	}
+html body div.psystem a
+	{
+		text-decoration: none;
+	}
+html body div.psystem a div.item
+	{
+		position: relative;
+		float: left;
+		margin: 0px 2px;
+		padding: 5px;
+		border: 1px solid #C6C6C6;
+		color: #878787;
+		background: #FFFFFF;
+	}
+html body div.psystem a:hover div.item
+	{
+		border: 1px solid #212121;
+		color: #333333;
+	}
+
+
+html body .ttHolder
+	{
+		position: relative;
+	}
+html body .ttHolder div.ttContent
+	{
+		position: absolute;
+		bottom: 110%;
+		right: -10px;
+		padding: 8px 15px;
+		background: #FFFFFF;
+		border: 1px solid #C6C6C6;
+		color: #333333;
+		box-shadow: 2px 2px rgba(198, 198, 198, 0.4);
+		font-weight: normal !important;
+		display: none;
+	}
+html body .ttHolder:hover div.ttContent
+	{
+		display: block;
+	}
